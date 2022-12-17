@@ -11,7 +11,7 @@ public class SettingsProfile implements Serializable, Cloneable {
     private int[] latitude = new int[]{45, 0, 0};
     private int[] longitude = new int[]{0, 0, 0};
     private int[] obliquity = new int[]{45, 0, 0};
-    private long startMillis = 1637103600000L;
+    private long startMillis = 1577833200000L;
     private long dayDurationMillis = 86400000L;
     private long yearDurationMillis = 34560000000L;
     private boolean planetClockwiseRotation = false;
