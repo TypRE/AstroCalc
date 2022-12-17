@@ -9,8 +9,8 @@ The application does not use any graphics engine or external libraries, only pur
 
 Times
 ------------------
-The time in the program begins to flow from the set time **"Start Millis"**. At this point the planet is located precisely at 270� degrees of ecliptic longitude, which means it is at the winter/summer solstice point. It depends on the set obliquity.
-The prime meridian is 180� degrees away from the sun, which means solar midnight.
+The time in the program begins to flow from the set time **"Start Millis"**. At this point the planet is located precisely at 270° degrees of ecliptic longitude, which means it is at the winter/summer solstice point. It depends on the set obliquity.
+The prime meridian is 180° degrees away from the sun, which means solar midnight.
 The simulation time begins to run according to the set parameters driven by the system time.
 
 There are time data in the program: **Global Time (GT)**, **Local Time (LT)**, and **Real Time (RT)**.<br>
@@ -30,7 +30,7 @@ The (Time Flow) buttons next to the astro map are used to control the speed of t
 The flow of time can be changed without limitation based on the user's needs.<br>
 The **Sun Rise** / **Sun Set** buttons are used to set the time of the event that applies to the current day according to local time.<br>
 The **Max Rising** / **Max Falling** buttons are used to set the time of the event when the sun's altitude changes the fastest on a given day according to local time.<br>
-The **Noon** / **Midnight** buttons are available to set solar noon or solar midnight, which means that the sun is then at 180� or 360� degrees of azimuth.
+The **Noon** / **Midnight** buttons are available to set solar noon or solar midnight, which means that the sun is then at 180° or 360° degrees of azimuth.
 In most cases, this means the Maximum and minimum sun altitude for a given day in **Local Time (LT)**.
 
 
@@ -74,7 +74,7 @@ In this section, the user will find all available planetary information, includi
 Other functions
 ------------------
 AstroCalc also has a function **ShowOrrery** to display the earth's rotation around the sun. The function shows the current position of the planet in orbit and the current rotation of the planet with respect to the sun.
-The red line shows the location of the observer. This display is 2D; therefore, the light beam sometimes deviates from the red line even though the sun is at 180� degrees azimuth.
+The red line shows the location of the observer. This display is 2D; therefore, the light beam sometimes deviates from the red line even though the sun is at 180° degrees azimuth.
 It depends on the set Obliquity and the current Equation of Time. Therefore, the graphical representation of the planet's rotation is only approximate.<br>
 The **TrackSun** function locks the sun in the center of the astro map, and the view rotates behind the sun.
 The **FlipView** function switches between a stereographic view and a view of a spherical sphere from the outside.
