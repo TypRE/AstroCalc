@@ -92,8 +92,7 @@ public class AstroPanel extends JComponent implements ActionListener {
 
 
     @Override
-    protected void paintComponent(Graphics g) {
-        super.paintComponent(g);
+    public void paint(Graphics g) {
         Graphics2D g2 = (Graphics2D) g;
         g2.setFont(font);
 
@@ -110,6 +109,7 @@ public class AstroPanel extends JComponent implements ActionListener {
             drawBoard(g2, board);
         }
         drawTime(g2);
+        super.paint(g);
     }
 
     private void setDefaultView() {
